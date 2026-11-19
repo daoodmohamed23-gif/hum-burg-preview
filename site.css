@@ -8,3 +8,11 @@
 
 .glass-bar .header-inner{display:grid;grid-template-columns:1fr auto 1fr}.preview-order{justify-self:end;color:white;border:1px solid #fff7;border-radius:30px;padding:6px 16px}
 @media(max-width:760px){.glass-bar .header-inner{display:flex}.glass-bar .site-nav{display:flex;position:static;background:transparent;gap:12px;padding:0}.glass-bar .site-nav a{font-size:12px}.preview-order{display:none}}
+
+@media(max-width:700px){
+.cover-curve{height:auto;display:flex;flex-direction:column}
+.cover-curve>svg{position:absolute}
+.cover-curve .cover-photo{position:static;width:100%;height:clamp(240px,58vw,360px);flex:none}
+.cover-curve .cover-title{position:static;width:auto;transform:none;padding:16px 18px 24px}
+.cover-title p{margin:0 auto 14px;text-wrap:balance}
+}
